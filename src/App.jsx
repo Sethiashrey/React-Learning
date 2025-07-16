@@ -8,6 +8,7 @@ function Sunny(){
        <h2>Name is : {name}</h2>
       <h1>Shrey Sethia</h1>
       <p>I am a good Boy</p>
+      <p>My age is 22</p>
       
     </>
   )
