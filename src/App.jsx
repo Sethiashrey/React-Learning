@@ -1,6 +1,7 @@
 
 import './App.css'
 import Boss from './Boss.jsx';
+import Messagebox from './Messagebox.jsx';
 function Sunny(){
   let name  = "Shrey Sethia";
   return(
@@ -9,6 +10,7 @@ function Sunny(){
       <h1>Shrey Sethia</h1>
       <p>I am a good Boy</p>
       <p>My age is 22</p>
+      <Messagebox message="Hello World" color="blue" />
       
     </>
   )
