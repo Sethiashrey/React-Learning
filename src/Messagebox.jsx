@@ -1,13 +1,13 @@
 function Messagebox({message, color , features , object1}) {
-
-    let name1 = object1.name == "Sunny" ? "correst name" : null;
+    let styles = {backgroundColor : "green"};
+    let isColor = object1.name == "Sunny" ? styles : {backgroundColor : "red"};
   return (
     <>
-     <p>{message}</p>
+     <p style={styles}>{message}</p>
      <p>{color}</p>
-     <p>{features}</p>
+     <p style={isColor}>{features.map((feature) => <li>{feature}</li>)}</p>
      <p>{object1.name}</p>
-     <p>{name1}</p>
+     {object1.name == "Sunny" ? <p>"correst name"</p> : null}
     </>
   );
 }

@@ -1,6 +1,6 @@
 
 import './App.css'
-import Boss from './Boss.jsx';
+import Boss from './boss.jsx';
 import Messagebox from './Messagebox.jsx';
 function Sunny() {
   let name = "Shrey Sethia";
@@ -18,9 +18,7 @@ function Sunny() {
           message="Hello World"
           color="blue"
           features={[
-            <li key="hindi">"Hindi"</li>,
-            <li key="english">"English"</li>,
-            <li key="sanskrit">"Sanskrit"</li>
+            "Hindi","English","Sanskrit"
           ]}
           object1={object1}
           
