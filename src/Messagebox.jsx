@@ -7,7 +7,7 @@ function Messagebox({message, color , features , object1}) {
      <p>{color}</p>
      <p style={isColor}>{features.map((feature) => <li>{feature}</li>)}</p>
      <p>{object1.name}</p>
-     {object1.name == "SunnySethia" ? <p>"correst name"</p> : null}
+     {object1.name == "Sunny" ? <p>"correst name"</p> : null}
     </>
   );
 }
