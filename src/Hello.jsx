@@ -4,6 +4,7 @@ function Hello({name11,color}){
         <>
           <p style={styles}>Hello {name11}</p>
           <p>Boss is sunny</p>
+          <p>Welcome to sunny-react</p>
         </>
     )
 }
