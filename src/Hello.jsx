@@ -3,6 +3,7 @@ function Hello({name11,color}){
     return (
         <>
           <p style={styles}>Hello {name11}</p>
+          <p>Boss is sunny</p>
         </>
     )
 }
