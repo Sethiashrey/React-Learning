@@ -7,6 +7,7 @@ function Hello({name11,color}){
           <p>Welcome to sunny-react</p>
           <p>Color is {color}</p>
           <p>Have a great day!</p>
+          <p>Working for the placement</p>
         </>
     )
 }
