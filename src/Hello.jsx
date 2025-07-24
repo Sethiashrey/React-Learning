@@ -8,6 +8,7 @@ function Hello({name11,color}){
           <p>Color is {color}</p>
           <p>Have a great day!</p>
           <p>Working for the placement</p>
+          <p>Let's build something amazing!</p>
         </>
     )
 }
