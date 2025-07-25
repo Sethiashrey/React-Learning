@@ -11,6 +11,7 @@ function Hello({name11,color}){
           <p>Let's build something amazing!</p>
           <p>Keep coding and stay positive!</p>
           <p>Enjoy your coding journey!</p>
+          <p>Work hard for your parents</p>
         </>
     )
 }
