@@ -15,6 +15,7 @@ function Hello({name11,color}){
           <p>Keep pushing your limits!</p>
           <p>Believe in yourself!</p>
           <p>Success is just around the corner!</p>
+          <p>Keep learning and growing!</p>
         </>
     )
 }
